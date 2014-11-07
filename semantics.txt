@@ -1,0 +1,58 @@
+# Typical semantics #
+
+Most words are defined as binary predicate, e.g.
+ikej := Sið goes to Teð
+can be considered the predicate Ikej[S,T].  This will discuss such words and
+and how they behave.
+
+## Definitions ##
+C = context
+U = universe
+yp = P[x, y] (predicate)
+sið = S
+teð = T
+
+## Semantics ##
+
+lyp = {c1 ∈ C : (∃c2 ∈ C) P[c1, c2]}
+ly'p = {c1 ∈ C : (∃c2 ∈ C) P[c2, c1]}
+ryp = {u ∈ U : (∃c ∈ C) P[u, c]}
+ry'p = {u ∈ U : (∃c ∈ C) P[c, u]}
+sið yp = {s ∈ S : (∃u ∈ U} P[s, u]}
+sið y'p = {s ∈ S : (∃u ∈ U) P[u, s]}
+sið hyp = {u ∈ U : (∃s ∈ S) P[u, s]}
+sið hy'p = {u ∈ U : (∃s ∈ S) P[s, u]}
+sið teð jyp = {s ∈ S : (∃t ∈ T) P[s, t]}
+sið teð jy'p = {s ∈ S : (∃t ∈ T) P[t, s]}
+sið teð wyp = {t ∈ T : (∃s ∈ S) P[t, s]}
+sið teð wy'p = {t ∈ T : (∃s ∈ S) P[s, t]}
+
+
+# Special words #
+
+þab: Lambda
+This is the set of all relations.  All basic predicates can filter these via
+the "natural extension" which will be described in detail later.
+
+et: sið is teð
+This is a rough approximation.  This is denotatively the intersection, but
+thought of as all the s ∈ S such that s ∈ T.  This is useful for
+contextualizing  hyp and hy'p, which are universal by default.  It's also 
+useful for a concept of all (let and re't).
+
+ilt: apply teð [relation] to sið
+
+
+es: This flips relations.  It's useful since it can pull out otherwise lost
+clauses via deep magic.
+e.g.
+pijd laltom jikeh, he's acym.
+I The-cat go-TRAN, flip.2-ESC small.
+I go to the cat that's small.
+
+e's flips, but he's pulls out.  I.e. e's e's e's = e's, but he's he's he's pulls
+out the third deep nested structure.
+hes will escape the relation
+
+axc := set negation (difference)
+ad := predicate negation

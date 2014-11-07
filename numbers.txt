@@ -1,0 +1,24 @@
+roots:
+0 xceh
+1 puw
+2 fow
+3 þal
+4 sil
+5 tur
+6 cor
+7 kij
+8 xej
+9 þsah
+
+1 opt
+10 etc
+100 ywþ
+
+thousand ikyburd
+million ikyvord
+billion ikyðard
+trillion ikyzird
+...
+
+
+

@@ -1,0 +1,28 @@
+unvoiced <- [pfþstckx]
+voiced <- [bvðzdʒgq]
+nasal <- [mnñŋ]
+vowel <- [yiaueo]
+glide <- [wlrjh]
+digit <- [0-9]
+nasalized <- "'"
+comma <- ","
+space <- [ \n\t]
+thousand <- "$"
+
+word_tail <- glide? vowel
+             (glide? (nasalized? voiced / nasal) /
+              glide)
+             (voiced / nasal)* word_tail?
+ahkaŋ <- unvoiced (unvoiced / nasal)* word_tail
+digits <- digit (digit digit?)?
+number <- digits (
+owpiz <- vowel glide? nasalized? unvoiced (unvoiced / nasal)* /
+         number
+ipred <- (ahkaŋ /
+          ">" text "<" /
+          ("l" / "r") owpiz /
+          ipred space* "h"? owpiz /
+          ipred space* ipred space* ("w" / "j") owpiz)
+         (space+ comma space+ !".")?
+
+text <- space* ipred space+ "." (space+ ipred space+ ".")*
