@@ -40,8 +40,8 @@ o (Back)
 
 # Sprouts (Glides)
 
+h (Glottal)
 w (Labial)
 l (Dental)
 r (Retroflex)
 j (Palatal)
-h (Glottal)
