@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1418592133
-ModificationTime: 1420951545
+ModificationTime: 1420972937
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -37,9 +37,9 @@ HheadDescent: 0
 HheadDOffset: 1
 OS2CapHeight: 0
 OS2XHeight: 0
-OS2Vendor: 'PfEd'
 Lookup: 6 0 0 "Substitute Attached Forms" { "Substitute Attached Forms subs"  } ['calt' ('DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Attached Form" { "Attached Form forms" ("att") } ['att ' ('DFLT' <'dflt' > ) ]
+Lookup: 259 0 0 "Attach Semivowels" { "Attach Semivowels anchors"  } ['curs' ('DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: class "Substitute Attached Forms subs" 4 4 4 2
@@ -75,7 +75,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 40 8 3
+WinInfo: 256 8 3
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -95,10 +95,11 @@ Grid
  2048 340 l 25
  -1048 340 l 25
 EndSplineSet
+AnchorClass2: "Semivowel" "Attach Semivowels anchors" 
 BeginChars: 274 17
 
 StartChar: Labial_UP
-Encoding: 0 57344 0
+Encoding: 0 112 0
 Width: 430
 VWidth: 0
 Flags: W
@@ -1175,7 +1176,7 @@ Substitution2: "Attached Form forms" Labial_UP.att
 EndChar
 
 StartChar: Labial_VP
-Encoding: 1 57345 1
+Encoding: 1 98 1
 Width: 345
 VWidth: 0
 Flags: W
@@ -2165,7 +2166,7 @@ Substitution2: "Attached Form forms" Labial_VP.att
 EndChar
 
 StartChar: Labial_UF
-Encoding: 2 57346 2
+Encoding: 2 102 2
 Width: 555
 VWidth: 0
 Flags: W
@@ -3710,7 +3711,7 @@ Substitution2: "Attached Form forms" Labial_UF.att
 EndChar
 
 StartChar: Labial_VF
-Encoding: 3 57347 3
+Encoding: 3 118 3
 Width: 485
 VWidth: 0
 Flags: W
@@ -7002,9 +7003,10 @@ SplineSet
  135 85 50 0 50 0 c 1
  50 50 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
-StartChar: glyph5
+StartChar: NameMe.264
 Encoding: 264 47 5
 Width: 1024
 VWidth: 0
@@ -10017,6 +10019,7 @@ SplineSet
  135 85 50 0 50 0 c 1
  50 50 l 1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: Labial_VF.att
@@ -11332,10 +11335,11 @@ SplineSet
  265 140 l 1
  265 120 l 1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: Dental_UP
-Encoding: 8 57348 8
+Encoding: 8 254 8
 Width: 400
 VWidth: 0
 Flags: W
@@ -12710,7 +12714,7 @@ Validated: 1
 EndChar
 
 StartChar: Dental_VP
-Encoding: 9 57349 9
+Encoding: 9 240 9
 Width: 460
 VWidth: 0
 Flags: W
@@ -14377,7 +14381,7 @@ Validated: 1
 EndChar
 
 StartChar: Dental_UF
-Encoding: 10 57350 10
+Encoding: 10 115 10
 Width: 400
 VWidth: 0
 Flags: W
@@ -14412,12 +14416,13 @@ Validated: 1
 EndChar
 
 StartChar: Glottal
-Encoding: 48 57384 11
+Encoding: 48 104 11
 Width: 160
 VWidth: 0
 Flags: W
 HStem: 0 21G<60 70>
 VStem: 50 60<15.9766 409.117>
+AnchorPoint: "Semivowel" 80 300 entry 0
 LayerCount: 2
 Back
 Fore
@@ -14433,14 +14438,16 @@ SplineSet
  205 565 110 460 110 340 c 0
  110 45 l 18
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Schwa
-Encoding: 40 57376 12
+Encoding: 40 121 12
 Width: 355
 VWidth: 0
 Flags: W
 VStem: 245 60<-69.1167 324.023>
+AnchorPoint: "Semivowel" 273 300 exit 0
 LayerCount: 2
 Back
 Fore
@@ -14456,10 +14463,11 @@ SplineSet
  300 340 305 335 305 325 c 2
  305 60 l 2
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Dental_VF
-Encoding: 11 57351 13
+Encoding: 11 122 13
 Width: 600
 VWidth: 0
 Flags: W
@@ -14501,7 +14509,7 @@ Validated: 1
 EndChar
 
 StartChar: Nasal_VP
-Encoding: 33 57361 14
+Encoding: 33 -1 14
 Width: 1024
 VWidth: 0
 LayerCount: 2
@@ -15785,7 +15793,7 @@ Validated: 1
 EndChar
 
 StartChar: Close
-Encoding: 41 57377 15
+Encoding: 41 105 15
 Width: 405
 VWidth: 0
 Flags: W
@@ -15819,6 +15827,7 @@ SplineSet
  115 -200 l 2
  110 -205 110 -205 105 -205 c 3
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Labial_VP.att
@@ -15846,6 +15855,7 @@ SplineSet
  185 85 265 165 265 165 c 1
  265 120 l 5
 EndSplineSet
+Validated: 524289
 EndChar
 EndChars
 EndSplineFont
