@@ -1,17 +1,17 @@
      e00x e01x e02x e03x e04x e05x e06x e07x
-xxx0    p    m    0                         
-xxx1    b    n    1                         
-xxx2    f    ṇ    2                         
-xxx3    v    ŋ    3                         
-xxx4    þ    y    4                         
-xxx5    ð    i    5                         
-xxx6    s    a    6                         
-xxx7    z    u    7                         
-xxx8    t    e    8                         
-xxx9    d    o    9                         
-xxxa    c    h    .                         
-xxxb         w    -                         
-xxxc    k    l    (                         
-xxxd    g    r    )                         
-xxxe    x    j    !                         
-xxxf    q    ,    ?                         
+xxx0    p    m    y    0                    
+xxx1    b    n    i    1                    
+xxx2    f    ṇ    a    2                    
+xxx3    v    ŋ    u    3                    
+xxx4    þ         e    4                    
+xxx5    ð         o    5                    
+xxx6    s              6                    
+xxx7    z              7                    
+xxx8    t    '    h    8                    
+xxx9    d    .    w    9                    
+xxxa    c    ,    l                         
+xxxb    ʒ    -    r                         
+xxxc    k    (    j                         
+xxxd    g    )                              
+xxxe    x    !                              
+xxxf    q    ?                              
