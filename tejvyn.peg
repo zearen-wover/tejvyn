@@ -13,12 +13,12 @@ word_tail <- glide? vowel
              (glide? (nasalized? voiced / nasal) /
               glide)
              (voiced / nasal)* word_tail?
-ahkaŋ <- unvoiced (unvoiced / nasal)* word_tail
+akþah <- unvoiced (unvoiced / nasal)* word_tail
 digits <- digit (digit digit?)?
 number <- digits (
 owpiz <- vowel glide? nasalized? unvoiced (unvoiced / nasal)* /
          number
-ipred <- (ahkaŋ /
+ipred <- (akþah /
           ">" text "<" /
           ("l" / "r") owpiz /
           ipred space* "h"? owpiz /
