@@ -10,9 +10,9 @@ f = fricative
 
 The unvoiced plosive (the top, right corner "up) is considered the core root, 
 and is used to refer the other sounds.  It occurs on the left since unvoiced
-roots appear on the left of stems.
+roots appear on the left of the stem.
 
-## Root blocks
+## Leaf blocks (Consonants)
 Labial:
 b p
 v f
@@ -29,7 +29,7 @@ Nasal:
 n m
 ŋ ñ
 
-# Stems (Vowels)
+# Roots (Vowels)
 
 y (Schwa)
 i (Close)
@@ -38,10 +38,13 @@ u (Round)
 e (Front)
 o (Back)
 
-# Sprouts (Glides)
+# Flowers (Approximates)
 
-h (Glottal)
+h (Glottal)  (1)
 w (Labial)
 l (Dental)
 r (Retroflex)
 j (Palatal)
+
+(1): This acts as a vowel lengthener or some glottal consonant (typically
+the fricative)
