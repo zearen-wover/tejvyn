@@ -20,8 +20,8 @@ owpiz <- vowel glide? nasalized? unvoiced (unvoiced / nasal)* /
          number
 ipred <- (akþah /
           ">" text "<" /
-          ("l" / "r") owpiz /
-          ipred space* "h"? owpiz /
+          "l" owpiz /
+          ipred space* "r"? owpiz /
           ipred space* ipred space* ("w" / "j") owpiz)
          (space+ comma space+ !".")?
 
