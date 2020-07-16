@@ -7,7 +7,6 @@ and how they behave.
 
 ## Definitions ##
 C = context
-U = universe
 yp = P[x, y] (predicate)
 sið = S
 teð = T
@@ -16,12 +15,10 @@ teð = T
 
 lyp = {c1 ∈ C : (∃c2 ∈ C) P[c1, c2]}
 ly'p = {c1 ∈ C : (∃c2 ∈ C) P[c2, c1]}
-ryp = {u ∈ U : (∃c ∈ C) P[u, c]}
-ry'p = {u ∈ U : (∃c ∈ C) P[c, u]}
-sið yp = {s ∈ S : (∃u ∈ U} P[s, u]}
-sið y'p = {s ∈ S : (∃u ∈ U) P[u, s]}
-sið hyp = {u ∈ U : (∃s ∈ S) P[u, s]}
-sið hy'p = {u ∈ U : (∃s ∈ S) P[s, u]}
+sið yp = {s ∈ S : (∃c ∈ C} P[s, c]}
+sið y'p = {s ∈ S : (∃c ∈ C) P[c, s]}
+sið ryp = {c ∈ C : (∃s ∈ S) P[c, s]}
+sið ry'p = {c ∈ C : (∃s ∈ S) P[s, c]}
 sið teð jyp = {s ∈ S : (∃t ∈ T) P[s, t]}
 sið teð jy'p = {s ∈ S : (∃t ∈ T) P[t, s]}
 sið teð wyp = {t ∈ T : (∃s ∈ S) P[t, s]}
@@ -33,6 +30,11 @@ sið teð wy'p = {t ∈ T : (∃s ∈ S) P[s, t]}
 þab: Lambda
 This is the set of all relations.  All basic predicates can filter these via
 the "natural extension" which will be described in detail later.
+
+raw: Universe
+Represents the the universe of discourse.  Roughly speaking this is the day of
+all things, much to Russell's dismay.  Semantically, this is similar to an
+indefinite article "a, some".
 
 et: sið is teð
 This is a rough approximation.  This is denotatively the intersection, but
